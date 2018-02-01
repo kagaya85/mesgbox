@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color: #eee;*/
+    background: url('img/Hatsune_miku_bg.JPG') no-repeat fixed center; 
+    background-size: cover;    
+    scroll-behavior: smooth;
+}
+
+.time {
+    margin: 0px;
+    padding: 0px;
+}
+
+#caption {
+    color: #39c5bb;
+    font-size: 25px;
+    font-family: "Microsoft YaHei"; 
+    font-weight: bold;   
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    text-shadow: 5px 5px 5px #aafff2;
+}
+
+.main {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.sub_container{
+    font-weight: bold;
+}
+#sub_caption{
+    color:#4169E1;
+    font-weight: 900;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.footer {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #6cf;
+}
+.userinfo{font-family: "Microsoft YaHei";}
+.text{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid #39c5bb;
+    border-radius: 10px;
+}
+.error {
+    color: #f00
+}
+
+.item{
+    margin: 0 auto; 
+    width: 500px;
+    font-family: "Microsoft YaHei";
+    background-color: #39c5bb;
+    border: 5px solid #39c5bb;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item_head{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.item_body{
+    font-size: 20px;
+}
+
+#miku{
+    position:fixed;
+    height: 400px;
+    width: 300px;
+    bottom: 10px;
+    right: 50px;
+}
+img{width: 100%;}
