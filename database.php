@@ -4,15 +4,10 @@ class DB{
     function __construct()
     { //connect
         $dbhost = "localhost";
-        $account = "root";
-        $password = "899072";
+        $account = "*******";
+        $password = "******";
         $dbname = "messagedb";
-        // $this->conn = new mysqli($dbhost,$account,$password,$dbname);
-        // if(!$this->conn->connect_error) {
-        //     die('Connect Error (' . $this->conn->connect_errno . ') ' . $this->conn->connect_error);
-        // }else{
-        //     echo 'Success... ' . $this->conn->host_info . "\n";
-        // } 
+       
         
         $this->conn = mysqli_connect($dbhost,$account,$password,$dbname);        
         if (!$this->conn) {
